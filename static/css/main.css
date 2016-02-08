@@ -1,0 +1,38 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #404040;
+  background-color: #eee;
+}
+
+h1 {
+    padding:0 lem;
+    color:#FFFFFF;
+}
+
+
+.container {
+  width: 620px;
+  margin-top: 20px;
+}
+
+.button-group {
+  margin-bottom: 10px;
+  float:right;
+}
+
+.counter {
+  display: inline;
+  margin-top: 10;
+  margin-bottom: 10;
+  margin-right: 10px;
+}
+
+.line {
+    padding: 0 10px 0;
+    margin: 20px 0;
+    line-height: 1px;
+    border-left: 200px solid #888888;
+    border-right: 200px solid #888888;
+    text-align: center;
+}
