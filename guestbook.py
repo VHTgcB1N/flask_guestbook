@@ -65,6 +65,9 @@ def post():
 
     return redirect('/')
 
+@application.route('/favicon.ico')
+def favicon():
+    return redirect('/static/static/favicon.ico')
 
 if __name__ == '__main__':
-    application.run('0.0.0.0', port=5000, debug=True)
+    application.run('0.0.0.0', port=5000, debug=False)
